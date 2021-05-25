@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Inventory Management System - Login</title>
+
+  <link rel='stylesheet' href='static/login.css'>
+
+    <link rel="stylesheet" href="static/login.css" media="screen" type="text/css" />
+
+</head>
+
+<body bgcolor="cyan">
+
+  <div class="login-card">
+    <h1>Login</h1><br>
+   <form action="/login" method="post">  
+  
+    <label><input type="text" name="name" id="name" placeholder="Username" required></label>
+    <label><input type="password" name="password" id ="password" placeholder="Password"required></label>
+    <button type="submit" id="login" class="login login-submit"> Login </button>
+  </form>
+
+  <div class="login-help"><br><br>
+   New User? <a href="/register">Register here!</a>
+  </div>
+</div>
+</body>
+</html>
